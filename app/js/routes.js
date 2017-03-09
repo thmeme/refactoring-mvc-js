@@ -7,7 +7,7 @@ angular.module('app')
             })
             .state('web.home', {
                 url: '/',
-                templateUrl: 'home.html'
+                templateUrl: 'home.html', controller:'MainController'
             });
 
         $urlRouterProvider.otherwise('/');
